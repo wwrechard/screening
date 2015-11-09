@@ -1,5 +1,5 @@
 # screening
-===
+
 An R package for efficient variable **screening** for linear and generalized linear models
 
 ## Description
