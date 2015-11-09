@@ -37,8 +37,11 @@ logisticTest(n = 50, p = 100, beta.not.null = c(1, 2, 3), nums.select = 20)
 }
 \references{
 Fan, Jianqing, and Jinchi Lv. "Sure independence screening for ultrahigh dimensional feature space." Journal of the Royal Statistical Society: Series B (Statistical Methodology) 70.5 (2008): 849-911.
+
 Wang, Xiangyu, and Chenlei Leng. "High-dimensional ordinary least-squares projection for screening variables." arXiv preprint arXiv:1506.01782 (2015).
+
 Li, Gaorong, et al. "Robust rank correlation based screening." The Annals of Statistics 40.3 (2012): 1846-1877.
+
 Wang, Hansheng. "Forward regression for ultra-high dimensional variable screening." Journal of the American Statistical Association 104.488 (2009): 1512-1524.
 }
 
