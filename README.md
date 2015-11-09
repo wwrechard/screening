@@ -1,12 +1,12 @@
 # screening
 
-An R package for efficient variable **screening** for linear and generalized linear models
+An R package for efficient variable **screening** for linear and generalized linear models.
 
 ## Description
 This package implements four popular variable screening algorithms, the **sure independence screening**<sup>[1](#myfootnote1)</sup> (SIS), **high-dimensional ordinary least squares projection**<sup>[2](#myfootnote2)</sup> (HOLP), **rank-robust correlation screening**<sup>[3](#myfootnote3)</sup> (RRCS) and the **Forward regression**<sup>[4](#myfootnote4)</sup> (FR) for efficient screening operaion over large p small n models. **SIS**, **HOLP** and **FR** are implemented to work with both linear models and generalized linear models while **RRCS** works only for linear models. We refer the reader to the references and the R-help docs for detailed information.
 
 ## Dependency
-For linear model screening, the package does not rely on any external packages. For generalized linear model, **HOLP** relies on the package `glmnet` to compute the ridge-regression estimator. This part can be replaced by any user function or package that achieves a similar functionality.
+For linear model screening, the package does not rely on any external packages. For generalized linear models, **HOLP** relies on the package `glmnet` to compute the ridge-regression estimator. This functional dependency can be replaced by any user function or package that achieves the same functionality (i.e., ridge regression for generalized linear models).
 
 ## Installation
 To install the package in a painless way, you will need to first install `devtools` package and then execute the following lines in your favorate R IDE
