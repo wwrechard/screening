@@ -35,7 +35,7 @@ A simple working example. Assume we observe 200 samples with 500 dimension, stor
 The package contains other two testing functions `linearModelTest` and `logisticTest`. The two functions provide integrated tests on the four screening methods. The full functionality includes simulating synthetic datasets and apply screening methods and report the result. Their codes also serve as good examples of using `screening`. For more detailed information, please refer to their R-help docs.
 
 ### Author
-[Xiangyu (Samuel) Wang](https://github.com/wwrechard). I appreciate your feedback under [*issues*](https://github.com/wwrechard/screening/issues) of this repository. 
+[Xiangyu (Samuel) Wang](https://github.com/wwrechard) and [Chenlei Leng](https://github.com/chenleileng). We appreciate your feedback under [*issues*](https://github.com/wwrechard/screening/issues) of this repository. 
 
 ### References
 <a name="myfootnote1">1. </a>Fan, Jianqing, and Jinchi Lv. "Sure independence screening for ultrahigh dimensional feature space." Journal of the Royal Statistical Society: Series B (Statistical Methodology) 70.5 (2008): 849-911.
